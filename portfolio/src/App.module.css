@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.logo {
+  animation: logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.link {
+  color: #b318f0;
+}
+.navTabAttribute {
+  width: auto;
+}
+.navTabAttribute > button{
+  margin-top: 10px;
+  margin-left: 7px;
+  margin-right: 7px;
+
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  bottom: -5px;
+  background-color: #b318f0;
+  border-radius: 50%;
+  position: absolute;
+  transition: all ease-in-out 1s;
+}
+
+
+.navTabAttribute > button:hover {
+  color: #b318f0 !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.navBorderColorGrey {
+  border-bottom: #E9E9E9 1px solid;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
