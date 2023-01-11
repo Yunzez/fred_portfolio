@@ -25,12 +25,6 @@
 .navTabAttribute {
   width: auto;
 }
-.navTabAttribute > button{
-  margin-top: 10px;
-  margin-left: 7px;
-  margin-right: 7px;
-
-}
 
 .dot {
   width: 10px;
@@ -43,7 +37,7 @@
 }
 
 
-.navTabAttribute > button:hover {
+.navTabAttribute > A:hover {
   color: #b318f0 !important;
   transition: all 0.2s ease-in-out;
 }
@@ -51,6 +45,7 @@
 .navBorderColorGrey {
   border-bottom: #E9E9E9 1px solid;
 }
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

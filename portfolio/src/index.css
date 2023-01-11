@@ -12,4 +12,14 @@ code {
     monospace;
 }
 
+.navSelected {
+  color: #b318f0 !important;
+}
 
+.navImg {
+  height: 30px;
+  padding: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+
+}

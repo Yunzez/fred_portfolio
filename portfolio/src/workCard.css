@@ -1,0 +1,38 @@
+.workCard {
+  width: 400px;
+  height: 600px;
+  border: #E9E9E9 2px solid;
+  border-radius: 10px;
+}
+
+.workdCardImg{
+  width: 100%;
+  height: auto;
+}
+
+.skillBadge {
+  font-size: smaller;
+  border-radius: 20px;
+  border: #E9E9E9 2px solid;
+  display: inline-block;
+  padding: 5px;
+  margin-left: 3px;
+  margin-right:3px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.skillBadge:hover {
+  background-color: #472F7E;
+  color: white;
+  transition: 0.3s all ease-in-out
+}
+
+.workIntro {
+  height: 90vh;
+}
+
+.infoSection {
+  margin-top: 25vh;
+  margin-left: 10vw;
+}
