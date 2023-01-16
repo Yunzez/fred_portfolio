@@ -1,6 +1,6 @@
 import { Component } from 'solid-js';
 import {A} from "@solidjs/router";
-import WorkCard, { WorkCardProps } from './WorkCard';
+import WorkCard, { WorkCardProps } from './WorkCard.js';
 import * as workData from './data.json'
 const Work: Component = () => {
 

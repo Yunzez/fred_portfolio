@@ -1,0 +1,6 @@
+!!!
+
+Always remember to add img folder into dist file as it will not do it itself
+not doing that will result in lost of images
+
+!!!

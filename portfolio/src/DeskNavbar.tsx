@@ -3,9 +3,6 @@ import { Container, Navbar } from 'solid-bootstrap'
 import { A } from "@solidjs/router";
 import styles from './App.module.css';
 import './index.css';
-import * as git from './assets/git.png'
-import * as email from './assets/email.png'
-import * as linkedin from './assets/linkedin.png'
 const DeskNavbar: Component = () => {
 
   onMount(() => {
@@ -65,9 +62,9 @@ const DeskNavbar: Component = () => {
             <A href="/about" class='btn' id="aboutBtn" onmouseover={() => setDot()} onmouseout={() => resetDot()}>About</A>
             <A href="/resume" class='btn' id="resumeBtn" onmouseover={() => setDot()} onmouseout={() => resetDot()}>Resume</A>
 
-            <A href="/work" class='mt-1'>  <img class="btn navImg" src='src/assets/git.png'></img> </A>
-            <A href="/work" class='mt-1'> <img class="btn navImg" src='src/assets/linkedin.png'></img> </A>
-            <A href="/work"  class='mt-1'> <img class="btn navImg" src='src/assets/email.png'></img> </A>
+            <A href="/work" class='mt-1'>  <img class="btn navImg" src='./imgs/git.png'></img> </A>
+            <A href="/work" class='mt-1'> <img class="btn navImg" src='./imgs/linkedin.png'></img> </A>
+            <A href="/work"  class='mt-1'> <img class="btn navImg" src='./imgs/email.png'></img> </A>
           </div>
 
 

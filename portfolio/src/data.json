@@ -2,7 +2,7 @@
   "data": [
     {
       "name": "OpenTug",
-      "imgSrc": "src/assets/email.png",
+      "imgSrc": "imgs/email.png",
       "gitUrl": "",
       "siteUrl": "www.OpenTug.com",
       "skillSet": [
@@ -15,7 +15,7 @@
     },
     {
       "name": "Seal Lab",
-      "imgSrc": "src/assets/email.png",
+      "imgSrc": "imgs/email.png",
       "gitUrl": "",
       "siteUrl": "www.seal.com",
       "skillSet": [
@@ -30,7 +30,7 @@
     },
     {
       "name": "Tunnel vzen",
-      "imgSrc": "src/assets/email.png",
+      "imgSrc": "imgs/email.png",
       "gitUrl": "",
       "siteUrl": "www.tunnelvzn.com",
       "skillSet": [
@@ -43,7 +43,7 @@
     },
     {
       "name": "Project Note",
-      "imgSrc": "src/assets/email.png",
+      "imgSrc": "imgs/email.png",
       "gitUrl": "",
       "siteUrl": "www.tunnelvzn.com",
       "skillSet": [
@@ -56,7 +56,7 @@
     },
     {
       "name": "Project Note",
-      "imgSrc": "src/assets/email.png",
+      "imgSrc": "imgs/email.png",
       "gitUrl": "",
       "siteUrl": "www.tunnelvzn.com",
       "skillSet": [

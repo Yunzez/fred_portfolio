@@ -2,10 +2,10 @@ import type { Component } from 'solid-js';
 import { Route, Routes } from "@solidjs/router";
 import logo from './logo.svg';
 import styles from './App.module.css';
-import DeskkNavbar from './DeskNavbar';
-import Work from './Work';
-import About from './About';
-const App: Component = () => {
+import DeskkNavbar from './DeskNavbar.js';
+import Work from './Work.js';
+import About from './About.js';
+export const App: Component = () => {
   return (
     <>
       <DeskkNavbar />
