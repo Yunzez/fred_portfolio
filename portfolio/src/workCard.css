@@ -1,11 +1,12 @@
 .workCard {
-  width: 400px;
-  height: 600px;
+  position: relative;
+  width: 38vw;
+  height: 80vh;
   border: #E9E9E9 2px solid;
   border-radius: 10px;
 }
 
-.workdCardImg{
+.workdCardImg {
   width: 100%;
   height: auto;
 }
@@ -17,9 +18,29 @@
   display: inline-block;
   padding: 5px;
   margin-left: 3px;
-  margin-right:3px;
+  margin-right: 3px;
   margin-top: 15px;
   text-align: center;
+}
+
+.bottomButtonWrapper {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+}
+
+.bottomButton{
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  font-size: medium;
+  border-top: #E9E9E9 1px solid;
+  border-left: #E9E9E9 0.5px solid;
+  border-right: #E9E9E9 0.5px solid;
+  border-radius: 0px, 0px, 15px, 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .skillBadge:hover {
@@ -36,3 +57,14 @@
   margin-top: 25vh;
   margin-left: 10vw;
 }
+
+@media (max-width: 576px){ 
+  .workCard {
+    width: 70vw
+    
+  }
+}
+/* @include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
+@include media-breakpoint-up(xxl) { ... } */

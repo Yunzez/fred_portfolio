@@ -1,4 +1,5 @@
 import { Component, ComponentProps } from 'solid-js';
+import {A} from "@solidjs/router";
 import './workCard.css'
 
 export interface WorkCardProps extends ComponentProps<any> {
@@ -14,9 +15,9 @@ export interface WorkCardProps extends ComponentProps<any> {
 
 const WorkCard: Component<WorkCardProps> = (props: WorkCardProps) => {
   return (
-    <div class='workCard mt-1'>
+    <div class='workCard mt-4'>
       <img class="workdCardImg" src={props.imgSrc}></img>
-      <div class='d-flex justify-content-between ps-2 pe-2'>
+      <div class='d-flex justify-content-between ps-2 pe-2 flex-wrap'>
         <div class='d-flex flex-column'>
           <span style={{
             'font-size': 'x-large'
@@ -31,7 +32,10 @@ const WorkCard: Component<WorkCardProps> = (props: WorkCardProps) => {
         </div>
       </div>
       <div class='mt-2 container-fluid'>{props.description}</div>
-
+      <div class='d-flex bottomButtonWrapper'>
+        <A class="bottomButton text-center" href='#'>View Github</A>
+        <A class="bottomButton text-center" href='#'>View Website</A>
+      </div>
     </div>
   )
 }
